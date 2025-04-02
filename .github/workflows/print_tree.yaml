@@ -4,7 +4,7 @@ on:
     branches:
       - main
   issues:
-    types: [opened, closed]
+    types: [ opened, closed ]
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -12,19 +12,14 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-
-      - name: Install tree if not exists
-        run: |
-          if ! command -v tree &> /dev/null; then
-            sudo apt-get update
-            sudo apt-get install -y tree
-          fi
-
       - name: Append directory tree to README
         run: |
-          # 기존 README.md 백업 후 업데이트
-          mv README.md README_OLD.md || true
-          echo "# Dev notes" > README.md
+          # Create readme
+          sudo apt-get install tree
+          sudo rm -rf README.md
+          touch README.md
+          git add README.md
+          echo "# Daily notes    " > README.md
           
           # Opened issue
           echo "### Opened issues" >> README.md
@@ -35,7 +30,7 @@ jobs:
           echo "" >> README.md
           
           # Closed issue
-          echo "### Closed issues" >> README.md
+          echo "### Closed issue" >> README.md
           curl -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
             -H "Accept: application/vnd.github.v3+json" \
             "https://api.github.com/repos/${{ github.repository }}/issues?state=closed" \
@@ -44,17 +39,12 @@ jobs:
           # My articles
           echo "### Index" >> README.md
           tree --dirsfirst --noreport -I README.md | sed 's/^/    /' >> README.md
-
-      - name: Commit and push if changes exist
+      - name: push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.email "actions@github.com"
           git config --global user.name "GitHub Actions"
-          git add README.md
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Update README with directory list"
-            git push origin main
-          fi
+          git add .
+          git commit -m "Update README with directory list"
+          git push origin main
