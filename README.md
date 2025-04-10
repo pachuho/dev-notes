@@ -1,5 +1,6 @@
 # Dev notes    
 ### Opened issues
+- Tuya SDK를 활용한 S3 이미지 접근 시 보안 로직 분석
 
 ### Closed issue
 ### Index
