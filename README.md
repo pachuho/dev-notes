@@ -1,4 +1,4 @@
-# Daily notes    
+# Dev notes    
 ### Opened issues
 
 ### Closed issue
@@ -7,7 +7,8 @@
     ├── android
     │   ├── compose
     │   │   └── E20250408 네비게이션 url 문자열 처리.md
-    │   └── E20250409 Okhttp 인터셉터.md
+    │   ├── E20250409 Okhttp 인터셉터.md
+    │   └── E20250410 Annotation.md
     ├── cs
     │   └── pattern
     │       └── creation
