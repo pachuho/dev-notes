@@ -19,7 +19,7 @@ jobs:
           sudo rm -rf README.md
           touch README.md
           git add README.md
-          echo "# Daily notes    " > README.md
+          echo "# Dev notes    " > README.md
           
           # Opened issue
           echo "### Opened issues" >> README.md
