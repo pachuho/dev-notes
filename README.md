@@ -1,5 +1,6 @@
 # Dev notes    
 ### Opened issues
+- BottomSheetDialogFragment 키보드가 올라올 때 일시적으로 백그라운드가 사라지는 이슈
 - Tuya SDK를 활용한 S3 이미지 접근, 보안 로직 분석
 
 ### Closed issue
