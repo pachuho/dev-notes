@@ -3,6 +3,7 @@
 - Tuya SDK를 활용한 S3 이미지 접근, 보안 로직 분석
 
 ### Closed issue
+- BottomSheetDialogFragment 키보드가 올라올 때 일시적으로 백그라운드가 사라지는 이슈
 - Compose Preview 랜더링 시 외부 라이브러리의 POJO 클래스 종속성 제거하기
 - Matter 디바이스 연결 방식에 따른 Discriminator 불일치 원인 분석 및 대응
 ### Index
@@ -11,7 +12,9 @@
     │   ├── compose
     │   │   └── E20250408 네비게이션 url 문자열 처리.md
     │   ├── E20250409 Okhttp 인터셉터.md
-    │   └── E20250410 Annotation.md
+    │   ├── E20250410 Annotation.md
+    │   ├── E20250418 Hilt 버전.md
+    │   └── E20250429 WebView onPage 함수 목록.md
     ├── cs
     │   └── pattern
     │       └── creation
