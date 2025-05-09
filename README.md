@@ -1,5 +1,6 @@
 # Dev notes    
 ### Opened issues
+- 데이터 처리 방식 개선하기
 - Tuya SDK를 활용한 S3 이미지 접근, 보안 로직 분석
 
 ### Closed issue
