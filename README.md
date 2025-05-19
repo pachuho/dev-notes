@@ -1,5 +1,6 @@
 # Dev notes    
 ### Opened issues
+- WebView에서 구글 로그인 시 발생하는 403 에러, 올바르게 해결하기
 - 데이터 처리 방식 개선하기
 
 ### Closed issue
