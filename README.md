@@ -1,9 +1,9 @@
 # Dev notes    
 ### Opened issues
-- WebView에서 구글 로그인 시 발생하는 403 에러, 올바르게 해결하기
 - 데이터 처리 방식 개선하기
 
 ### Closed issue
+- WebView에서 구글 로그인 시 발생하는 403 에러, 올바르게 해결하기
 - BottomSheetDialogFragment 키보드가 올라올 때 일시적으로 백그라운드가 사라지는 이슈
 - Compose Preview 랜더링 시 외부 라이브러리의 POJO 클래스 종속성 제거하기
 - Matter 디바이스 연결 방식에 따른 Discriminator 불일치 원인 분석 및 대응
