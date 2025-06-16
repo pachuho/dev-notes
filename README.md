@@ -28,6 +28,9 @@
     │   ├── E20250409 마커 인터페이스.md
     │   ├── E20250415 Coroutine Scope 종류와 특징.md
     │   └── E20250507 Inline 키워드.md
+    ├── test
+    │   ├── E20250616 Given-When-Then 패턴을 사용한 테스트 코드 작성.md
+    │   └── E20250616 JUnit.md
     ├── tip
     │   ├── E20250404 모듈 그래프 생성.md
     │   └── E20250519 유용한 URL.md
