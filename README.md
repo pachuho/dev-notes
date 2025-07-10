@@ -1,5 +1,6 @@
 # Dev notes    
 ### Opened issues
+- 사용자 경험을 고려한 NestedScroll 계층 구조 전략
 - 데이터 처리 방식 개선하기
 
 ### Closed issue
