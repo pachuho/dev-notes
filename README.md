@@ -3,6 +3,7 @@
 - 데이터 처리 방식 개선하기
 
 ### Closed issue
+- [사용자 경험을 고려한 NestedScroll 계층 구조 전략](https://github.com/pachuho/dev-notes/issues/7)
 - [WebView에서 구글 로그인 시 발생하는 403 에러, 올바르게 해결하기](https://github.com/pachuho/dev-notes/issues/6)
 - [BottomSheetDialogFragment 키보드가 올라올 때 일시적으로 백그라운드가 사라지는 이슈](https://github.com/pachuho/dev-notes/issues/4)
 - [Compose Preview 랜더링 시 외부 라이브러리의 POJO 클래스 종속성 제거하기](https://github.com/pachuho/dev-notes/issues/3)
@@ -13,12 +14,14 @@
     ├── android
     │   ├── compose
     │   │   ├── E20250408 네비게이션 url 문자열 처리.md
-    │   │   └── E20250507 DerivedStateOf.md
+    │   │   ├── E20250507 DerivedStateOf.md
+    │   │   └── E20250604 Compose 성능 개선.md
     │   ├── E20250409 Okhttp 인터셉터.md
     │   ├── E20250410 Annotation.md
     │   ├── E20250418 Hilt 버전.md
     │   ├── E20250429 WebView onPage 함수 목록.md
-    │   └── E20250516 측정도구 비교.md
+    │   ├── E20250516 측정도구 비교.md
+    │   └── E20250709 화면 측정 단위.md
     ├── cs
     │   └── pattern
     │       └── creation
