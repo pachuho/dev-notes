@@ -1,9 +1,9 @@
 # Dev notes    
 ### Opened issues
-- Github Action CI/CD 속도 최적화
 - 데이터 처리 방식 개선하기
 
 ### Closed issue
+- [Github Action CI/CD 속도 최적화](https://github.com/pachuho/dev-notes/issues/8)
 - [사용자 경험을 고려한 NestedScroll 계층 구조 전략](https://github.com/pachuho/dev-notes/issues/7)
 - [WebView에서 구글 로그인 시 발생하는 403 에러, 올바르게 해결하기](https://github.com/pachuho/dev-notes/issues/6)
 - [BottomSheetDialogFragment 키보드가 올라올 때 일시적으로 백그라운드가 사라지는 이슈](https://github.com/pachuho/dev-notes/issues/4)
