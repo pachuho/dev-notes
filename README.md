@@ -1,5 +1,6 @@
 # Dev notes    
 ### Opened issues
+- Github Action CI/CD 속도 최적화
 - 데이터 처리 방식 개선하기
 
 ### Closed issue
